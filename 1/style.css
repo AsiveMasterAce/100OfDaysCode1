@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cinzel:wght@400;500&family=Secular+One&family=The+Nautigal&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cinzel:wght@400;500&family=Secular+One&family=The+Nautigal&family=Ubuntu+Mono&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5989B;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #FFCDB2;
+    top: 0;
+    bottom: 0;
+    opacity: .8;
+    position: sticky;
+    z-index: 12;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'The Nautigal', cursive;
+    color: #ee6c4d;
+    letter-spacing: 5px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.logo a:hover {
+    font-size: 42px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    margin: 0 1px;
+    padding: 20px 10px;
+    color: #936639;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    font-size: 25;
+    color: black;
+    height: 100px;
+    border-bottom: 3px solid black;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.Banner-area {
+    background: url('banner1.jpg');
+    background: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+    top: 0;
+    position: relative;
+    height: 600px;
+}
+
+.Banner-area h2 {
+    font-size: 80px;
+    font-family: 'Secular One', sans-serif;
+    left: 35%;
+    top: 30%;
+    position: absolute;
+    color: white;
+}
+
+.text-area {
+    padding: 2px;
+    color: white;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.text-area h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+    padding-top: 10px;
+}
+
+.text-area p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+
+.image {
+    background: url('1.jpg');
+    background-size: 100% 100;
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+    top: 0;
+    position: relative;
+    height: 300px;
+}
+
+.image h2 {
+    font-size: 80px;
+    left: 35%;
+    top: 40%;
+    position: absolute;
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
